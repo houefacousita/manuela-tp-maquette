@@ -1,0 +1,112 @@
+body{
+    padding: 5%;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+header p {
+width: 30%;
+height: auto;
+}
+
+#logo{
+    width: 80%;
+}
+nav ul {
+    display: flex;
+    justify-content: space-around;
+    list-style-type: none;
+    padding-right: 8px
+}
+nav ul li {
+    margin-left: 60px;
+}
+main .image_de_fond{
+    height: 700px;
+}
+.image_de_fond {
+    background: url(Images/backgroung_image.jpg); 
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    align-items: center;
+}
+.image_de_fond img {
+    max-height: 100px;
+    max-width: 300px;
+    margin: 75px;
+}
+
+.les_logos {
+    display: flex;
+    margin: 20px;
+    text-align: center;
+    align-content: center;
+    align-items: center;
+    flex-direction: column
+}
+#logos {
+    display: flex;
+    text-align: center;
+    align-content: center;
+    align-items: center;
+    flex-wrap: nowrap;
+}
+#logos div p {
+    text-align: center;
+}
+.graphisme,.strategie, .illustrations {
+    text-align: center;
+    margin: 25px;
+}
+#recommandation{
+    text-align: center;
+    margin: 90px;
+}
+#recommandation p{
+    font-size: 18px;
+}
+footer{
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(115, 16, 207);
+    height: 230px;
+}
+footer p {
+    text-align: center;
+    color: white;
+    font-size: 18px;
+}
+#dispositions {
+    display: flex;
+    align-items: center;
+    text-align: justify;
+    justify-content: space-around;
+    color: white;
+}
+.icone{
+    display: flex;
+    width: 100%;
+    max-width: 550px;
+    justify-content: space-evenly;
+    padding-left: 320px;
+    font-size: 28px;
+    color: white;
+}
+.coordonee ul{
+    display: block;
+    list-style-type: none;
+}
+.agence{
+    height: 60%;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    margin: -56px;
+    font-size: 45px;
+    color: white;
+}
